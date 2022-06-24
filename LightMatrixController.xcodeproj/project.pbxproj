@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC0FABC2866031F00B9D478 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FABB2866031F00B9D478 /* Tests_iOS.swift */; };
+		EDC0FABE2866031F00B9D478 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FABD2866031F00B9D478 /* Tests_iOSLaunchTests.swift */; };
+		EDC0FAC82866031F00B9D478 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAC72866031F00B9D478 /* Tests_macOS.swift */; };
+		EDC0FACA2866031F00B9D478 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAC92866031F00B9D478 /* Tests_macOSLaunchTests.swift */; };
+		EDC0FACB2866031F00B9D478 /* LightMatrixControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAA32866031A00B9D478 /* LightMatrixControllerApp.swift */; };
+		EDC0FACC2866031F00B9D478 /* LightMatrixControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAA32866031A00B9D478 /* LightMatrixControllerApp.swift */; };
+		EDC0FACD2866031F00B9D478 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAA42866031A00B9D478 /* ContentView.swift */; };
+		EDC0FACE2866031F00B9D478 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAA42866031A00B9D478 /* ContentView.swift */; };
+		EDC0FACF2866031F00B9D478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC0FAA52866031F00B9D478 /* Assets.xcassets */; };
+		EDC0FAD02866031F00B9D478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC0FAA52866031F00B9D478 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDC0FAB82866031F00B9D478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC0FA9E2866031A00B9D478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC0FAA92866031F00B9D478;
+			remoteInfo = "LightMatrixController (iOS)";
+		};
+		EDC0FAC42866031F00B9D478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC0FA9E2866031A00B9D478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC0FAAF2866031F00B9D478;
+			remoteInfo = "LightMatrixController (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDC0FAA32866031A00B9D478 /* LightMatrixControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMatrixControllerApp.swift; sourceTree = "<group>"; };
+		EDC0FAA42866031A00B9D478 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDC0FAA52866031F00B9D478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC0FAAA2866031F00B9D478 /* LightMatrixController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightMatrixController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0FAB02866031F00B9D478 /* LightMatrixController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightMatrixController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0FAB22866031F00B9D478 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EDC0FAB72866031F00B9D478 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0FABB2866031F00B9D478 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		EDC0FABD2866031F00B9D478 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		EDC0FAC32866031F00B9D478 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0FAC72866031F00B9D478 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		EDC0FAC92866031F00B9D478 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC0FAA72866031F00B9D478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0FAAD2866031F00B9D478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0FAB42866031F00B9D478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0FAC02866031F00B9D478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC0FA9D2866031A00B9D478 = {
+			isa = PBXGroup;
+			children = (
+				EDC0FAA22866031A00B9D478 /* Shared */,
+				EDC0FAB12866031F00B9D478 /* macOS */,
+				EDC0FABA2866031F00B9D478 /* Tests iOS */,
+				EDC0FAC62866031F00B9D478 /* Tests macOS */,
+				EDC0FAAB2866031F00B9D478 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC0FAA22866031A00B9D478 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0FAA32866031A00B9D478 /* LightMatrixControllerApp.swift */,
+				EDC0FAA42866031A00B9D478 /* ContentView.swift */,
+				EDC0FAA52866031F00B9D478 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EDC0FAAB2866031F00B9D478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0FAAA2866031F00B9D478 /* LightMatrixController.app */,
+				EDC0FAB02866031F00B9D478 /* LightMatrixController.app */,
+				EDC0FAB72866031F00B9D478 /* Tests iOS.xctest */,
+				EDC0FAC32866031F00B9D478 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC0FAB12866031F00B9D478 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0FAB22866031F00B9D478 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		EDC0FABA2866031F00B9D478 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0FABB2866031F00B9D478 /* Tests_iOS.swift */,
+				EDC0FABD2866031F00B9D478 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		EDC0FAC62866031F00B9D478 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0FAC72866031F00B9D478 /* Tests_macOS.swift */,
+				EDC0FAC92866031F00B9D478 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC0FAA92866031F00B9D478 /* LightMatrixController (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC0FAD32866031F00B9D478 /* Build configuration list for PBXNativeTarget "LightMatrixController (iOS)" */;
+			buildPhases = (
+				EDC0FAA62866031F00B9D478 /* Sources */,
+				EDC0FAA72866031F00B9D478 /* Frameworks */,
+				EDC0FAA82866031F00B9D478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LightMatrixController (iOS)";
+			productName = "LightMatrixController (iOS)";
+			productReference = EDC0FAAA2866031F00B9D478 /* LightMatrixController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC0FAAF2866031F00B9D478 /* LightMatrixController (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC0FAD62866031F00B9D478 /* Build configuration list for PBXNativeTarget "LightMatrixController (macOS)" */;
+			buildPhases = (
+				EDC0FAAC2866031F00B9D478 /* Sources */,
+				EDC0FAAD2866031F00B9D478 /* Frameworks */,
+				EDC0FAAE2866031F00B9D478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LightMatrixController (macOS)";
+			productName = "LightMatrixController (macOS)";
+			productReference = EDC0FAB02866031F00B9D478 /* LightMatrixController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC0FAB62866031F00B9D478 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC0FAD92866031F00B9D478 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				EDC0FAB32866031F00B9D478 /* Sources */,
+				EDC0FAB42866031F00B9D478 /* Frameworks */,
+				EDC0FAB52866031F00B9D478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC0FAB92866031F00B9D478 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = EDC0FAB72866031F00B9D478 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EDC0FAC22866031F00B9D478 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC0FADC2866031F00B9D478 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				EDC0FABF2866031F00B9D478 /* Sources */,
+				EDC0FAC02866031F00B9D478 /* Frameworks */,
+				EDC0FAC12866031F00B9D478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC0FAC52866031F00B9D478 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = EDC0FAC32866031F00B9D478 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC0FA9E2866031A00B9D478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EDC0FAA92866031F00B9D478 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					EDC0FAAF2866031F00B9D478 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					EDC0FAB62866031F00B9D478 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = EDC0FAA92866031F00B9D478;
+					};
+					EDC0FAC22866031F00B9D478 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = EDC0FAAF2866031F00B9D478;
+					};
+				};
+			};
+			buildConfigurationList = EDC0FAA12866031A00B9D478 /* Build configuration list for PBXProject "LightMatrixController" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC0FA9D2866031A00B9D478;
+			productRefGroup = EDC0FAAB2866031F00B9D478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC0FAA92866031F00B9D478 /* LightMatrixController (iOS) */,
+				EDC0FAAF2866031F00B9D478 /* LightMatrixController (macOS) */,
+				EDC0FAB62866031F00B9D478 /* Tests iOS */,
+				EDC0FAC22866031F00B9D478 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC0FAA82866031F00B9D478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0FACF2866031F00B9D478 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0FAAE2866031F00B9D478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0FAD02866031F00B9D478 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0FAB52866031F00B9D478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0FAC12866031F00B9D478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC0FAA62866031F00B9D478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0FACD2866031F00B9D478 /* ContentView.swift in Sources */,
+				EDC0FACB2866031F00B9D478 /* LightMatrixControllerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0FAAC2866031F00B9D478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0FACE2866031F00B9D478 /* ContentView.swift in Sources */,
+				EDC0FACC2866031F00B9D478 /* LightMatrixControllerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0FAB32866031F00B9D478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0FABE2866031F00B9D478 /* Tests_iOSLaunchTests.swift in Sources */,
+				EDC0FABC2866031F00B9D478 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0FABF2866031F00B9D478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0FACA2866031F00B9D478 /* Tests_macOSLaunchTests.swift in Sources */,
+				EDC0FAC82866031F00B9D478 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDC0FAB92866031F00B9D478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC0FAA92866031F00B9D478 /* LightMatrixController (iOS) */;
+			targetProxy = EDC0FAB82866031F00B9D478 /* PBXContainerItemProxy */;
+		};
+		EDC0FAC52866031F00B9D478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC0FAAF2866031F00B9D478 /* LightMatrixController (macOS) */;
+			targetProxy = EDC0FAC42866031F00B9D478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDC0FAD12866031F00B9D478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDC0FAD22866031F00B9D478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EDC0FAD42866031F00B9D478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodyCoogan.LightMatrixController;
+				PRODUCT_NAME = LightMatrixController;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC0FAD52866031F00B9D478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodyCoogan.LightMatrixController;
+				PRODUCT_NAME = LightMatrixController;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC0FAD72866031F00B9D478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodyCoogan.LightMatrixController;
+				PRODUCT_NAME = LightMatrixController;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EDC0FAD82866031F00B9D478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodyCoogan.LightMatrixController;
+				PRODUCT_NAME = LightMatrixController;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EDC0FADA2866031F00B9D478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodyCoogan.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LightMatrixController (iOS)";
+			};
+			name = Debug;
+		};
+		EDC0FADB2866031F00B9D478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodyCoogan.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LightMatrixController (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC0FADD2866031F00B9D478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodyCoogan.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LightMatrixController (macOS)";
+			};
+			name = Debug;
+		};
+		EDC0FADE2866031F00B9D478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodyCoogan.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LightMatrixController (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC0FAA12866031A00B9D478 /* Build configuration list for PBXProject "LightMatrixController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0FAD12866031F00B9D478 /* Debug */,
+				EDC0FAD22866031F00B9D478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC0FAD32866031F00B9D478 /* Build configuration list for PBXNativeTarget "LightMatrixController (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0FAD42866031F00B9D478 /* Debug */,
+				EDC0FAD52866031F00B9D478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC0FAD62866031F00B9D478 /* Build configuration list for PBXNativeTarget "LightMatrixController (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0FAD72866031F00B9D478 /* Debug */,
+				EDC0FAD82866031F00B9D478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC0FAD92866031F00B9D478 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0FADA2866031F00B9D478 /* Debug */,
+				EDC0FADB2866031F00B9D478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC0FADC2866031F00B9D478 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0FADD2866031F00B9D478 /* Debug */,
+				EDC0FADE2866031F00B9D478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC0FA9E2866031A00B9D478 /* Project object */;
+}
