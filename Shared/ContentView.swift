@@ -6,12 +6,27 @@
 //
 
 import SwiftUI
+import SystemConfiguration.CaptiveNetwork
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        NavigationView{
+            VStack{
+                
+                List{
+                    PhraseInputCardView().listRowBackground(Color(uiColor: UIColor.red))
+                    SpeedInputCardView().listRowBackground(Color(uiColor: UIColor.purple))
+                    ColorPickerCardView().listRowBackground(Color(uiColor: UIColor.systemPink))
+                    BrightnessCardView().listRowBackground(Color(uiColor: UIColor.blue))
+                    ResetCardView().listRowBackground(Color(uiColor: UIColor.orange))
+                    
+                }.navigationTitle("Matrix Controller")
+            }
+        }.padding(0)
     }
+
 }
 
 struct ContentView_Previews: PreviewProvider {

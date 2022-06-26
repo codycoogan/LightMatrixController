@@ -17,6 +17,13 @@
 		EDC0FACE2866031F00B9D478 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAA42866031A00B9D478 /* ContentView.swift */; };
 		EDC0FACF2866031F00B9D478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC0FAA52866031F00B9D478 /* Assets.xcassets */; };
 		EDC0FAD02866031F00B9D478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC0FAA52866031F00B9D478 /* Assets.xcassets */; };
+		EDC0FAE1286649D300B9D478 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAE0286649D300B9D478 /* Theme.swift */; };
+		EDC0FAE3286786CD00B9D478 /* PhraseInputCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAE2286786CD00B9D478 /* PhraseInputCardView.swift */; };
+		EDC0FAE5286797A600B9D478 /* SpeedInputCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAE4286797A600B9D478 /* SpeedInputCardView.swift */; };
+		EDC0FAE72867D63700B9D478 /* ColorPickerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAE62867D63700B9D478 /* ColorPickerCardView.swift */; };
+		EDC0FAE92868F93600B9D478 /* MatrixBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAE82868F93600B9D478 /* MatrixBase.swift */; };
+		EDC0FAEB2869063A00B9D478 /* BrightnessCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAEA2869063A00B9D478 /* BrightnessCardView.swift */; };
+		EDC0FAED286907AB00B9D478 /* ResetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAEC286907AB00B9D478 /* ResetCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +47,8 @@
 		EDC0FAA32866031A00B9D478 /* LightMatrixControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMatrixControllerApp.swift; sourceTree = "<group>"; };
 		EDC0FAA42866031A00B9D478 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDC0FAA52866031F00B9D478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDC0FAAA2866031F00B9D478 /* LightMatrixController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightMatrixController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDC0FAB02866031F00B9D478 /* LightMatrixController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightMatrixController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0FAAA2866031F00B9D478 /* Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Controller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0FAB02866031F00B9D478 /* Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Controller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC0FAB22866031F00B9D478 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		EDC0FAB72866031F00B9D478 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC0FABB2866031F00B9D478 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		EDC0FAC32866031F00B9D478 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC0FAC72866031F00B9D478 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		EDC0FAC92866031F00B9D478 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		EDC0FAE0286649D300B9D478 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		EDC0FAE2286786CD00B9D478 /* PhraseInputCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseInputCardView.swift; sourceTree = "<group>"; };
+		EDC0FAE4286797A600B9D478 /* SpeedInputCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedInputCardView.swift; sourceTree = "<group>"; };
+		EDC0FAE62867D63700B9D478 /* ColorPickerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerCardView.swift; sourceTree = "<group>"; };
+		EDC0FAE82868F93600B9D478 /* MatrixBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixBase.swift; sourceTree = "<group>"; };
+		EDC0FAEA2869063A00B9D478 /* BrightnessCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessCardView.swift; sourceTree = "<group>"; };
+		EDC0FAEC286907AB00B9D478 /* ResetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +100,7 @@
 		EDC0FA9D2866031A00B9D478 = {
 			isa = PBXGroup;
 			children = (
+				EDC0FADF286649B000B9D478 /* Model */,
 				EDC0FAA22866031A00B9D478 /* Shared */,
 				EDC0FAB12866031F00B9D478 /* macOS */,
 				EDC0FABA2866031F00B9D478 /* Tests iOS */,
@@ -100,6 +115,12 @@
 				EDC0FAA32866031A00B9D478 /* LightMatrixControllerApp.swift */,
 				EDC0FAA42866031A00B9D478 /* ContentView.swift */,
 				EDC0FAA52866031F00B9D478 /* Assets.xcassets */,
+				EDC0FAE2286786CD00B9D478 /* PhraseInputCardView.swift */,
+				EDC0FAE4286797A600B9D478 /* SpeedInputCardView.swift */,
+				EDC0FAE62867D63700B9D478 /* ColorPickerCardView.swift */,
+				EDC0FAE82868F93600B9D478 /* MatrixBase.swift */,
+				EDC0FAEA2869063A00B9D478 /* BrightnessCardView.swift */,
+				EDC0FAEC286907AB00B9D478 /* ResetCardView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -107,8 +128,8 @@
 		EDC0FAAB2866031F00B9D478 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDC0FAAA2866031F00B9D478 /* LightMatrixController.app */,
-				EDC0FAB02866031F00B9D478 /* LightMatrixController.app */,
+				EDC0FAAA2866031F00B9D478 /* Controller.app */,
+				EDC0FAB02866031F00B9D478 /* Controller.app */,
 				EDC0FAB72866031F00B9D478 /* Tests iOS.xctest */,
 				EDC0FAC32866031F00B9D478 /* Tests macOS.xctest */,
 			);
@@ -141,12 +162,20 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		EDC0FADF286649B000B9D478 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0FAE0286649D300B9D478 /* Theme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDC0FAA92866031F00B9D478 /* LightMatrixController (iOS) */ = {
+		EDC0FAA92866031F00B9D478 /* Controller (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDC0FAD32866031F00B9D478 /* Build configuration list for PBXNativeTarget "LightMatrixController (iOS)" */;
+			buildConfigurationList = EDC0FAD32866031F00B9D478 /* Build configuration list for PBXNativeTarget "Controller (iOS)" */;
 			buildPhases = (
 				EDC0FAA62866031F00B9D478 /* Sources */,
 				EDC0FAA72866031F00B9D478 /* Frameworks */,
@@ -156,14 +185,14 @@
 			);
 			dependencies = (
 			);
-			name = "LightMatrixController (iOS)";
+			name = "Controller (iOS)";
 			productName = "LightMatrixController (iOS)";
-			productReference = EDC0FAAA2866031F00B9D478 /* LightMatrixController.app */;
+			productReference = EDC0FAAA2866031F00B9D478 /* Controller.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EDC0FAAF2866031F00B9D478 /* LightMatrixController (macOS) */ = {
+		EDC0FAAF2866031F00B9D478 /* Controller (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDC0FAD62866031F00B9D478 /* Build configuration list for PBXNativeTarget "LightMatrixController (macOS)" */;
+			buildConfigurationList = EDC0FAD62866031F00B9D478 /* Build configuration list for PBXNativeTarget "Controller (macOS)" */;
 			buildPhases = (
 				EDC0FAAC2866031F00B9D478 /* Sources */,
 				EDC0FAAD2866031F00B9D478 /* Frameworks */,
@@ -173,9 +202,9 @@
 			);
 			dependencies = (
 			);
-			name = "LightMatrixController (macOS)";
+			name = "Controller (macOS)";
 			productName = "LightMatrixController (macOS)";
-			productReference = EDC0FAB02866031F00B9D478 /* LightMatrixController.app */;
+			productReference = EDC0FAB02866031F00B9D478 /* Controller.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EDC0FAB62866031F00B9D478 /* Tests iOS */ = {
@@ -240,7 +269,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EDC0FAA12866031A00B9D478 /* Build configuration list for PBXProject "LightMatrixController" */;
+			buildConfigurationList = EDC0FAA12866031A00B9D478 /* Build configuration list for PBXProject "Controller" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -253,8 +282,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDC0FAA92866031F00B9D478 /* LightMatrixController (iOS) */,
-				EDC0FAAF2866031F00B9D478 /* LightMatrixController (macOS) */,
+				EDC0FAA92866031F00B9D478 /* Controller (iOS) */,
+				EDC0FAAF2866031F00B9D478 /* Controller (macOS) */,
 				EDC0FAB62866031F00B9D478 /* Tests iOS */,
 				EDC0FAC22866031F00B9D478 /* Tests macOS */,
 			);
@@ -299,6 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC0FAE72867D63700B9D478 /* ColorPickerCardView.swift in Sources */,
+				EDC0FAEB2869063A00B9D478 /* BrightnessCardView.swift in Sources */,
+				EDC0FAE3286786CD00B9D478 /* PhraseInputCardView.swift in Sources */,
+				EDC0FAED286907AB00B9D478 /* ResetCardView.swift in Sources */,
+				EDC0FAE92868F93600B9D478 /* MatrixBase.swift in Sources */,
+				EDC0FAE5286797A600B9D478 /* SpeedInputCardView.swift in Sources */,
+				EDC0FAE1286649D300B9D478 /* Theme.swift in Sources */,
 				EDC0FACD2866031F00B9D478 /* ContentView.swift in Sources */,
 				EDC0FACB2866031F00B9D478 /* LightMatrixControllerApp.swift in Sources */,
 			);
@@ -336,12 +372,12 @@
 /* Begin PBXTargetDependency section */
 		EDC0FAB92866031F00B9D478 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDC0FAA92866031F00B9D478 /* LightMatrixController (iOS) */;
+			target = EDC0FAA92866031F00B9D478 /* Controller (iOS) */;
 			targetProxy = EDC0FAB82866031F00B9D478 /* PBXContainerItemProxy */;
 		};
 		EDC0FAC52866031F00B9D478 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDC0FAAF2866031F00B9D478 /* LightMatrixController (macOS) */;
+			target = EDC0FAAF2866031F00B9D478 /* Controller (macOS) */;
 			targetProxy = EDC0FAC42866031F00B9D478 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -459,10 +495,11 @@
 		EDC0FAD42866031F00B9D478 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2U2MFBKM8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -476,8 +513,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CodyCoogan.LightMatrixController;
-				PRODUCT_NAME = LightMatrixController;
+				PRODUCT_BUNDLE_IDENTIFIER = CodyCoogan.Controller;
+				PRODUCT_NAME = Controller;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,10 +525,11 @@
 		EDC0FAD52866031F00B9D478 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2U2MFBKM8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -505,8 +543,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CodyCoogan.LightMatrixController;
-				PRODUCT_NAME = LightMatrixController;
+				PRODUCT_BUNDLE_IDENTIFIER = CodyCoogan.Controller;
+				PRODUCT_NAME = Controller;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -534,7 +572,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = CodyCoogan.LightMatrixController;
-				PRODUCT_NAME = LightMatrixController;
+				PRODUCT_NAME = Controller;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -560,7 +598,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = CodyCoogan.LightMatrixController;
-				PRODUCT_NAME = LightMatrixController;
+				PRODUCT_NAME = Controller;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -645,7 +683,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDC0FAA12866031A00B9D478 /* Build configuration list for PBXProject "LightMatrixController" */ = {
+		EDC0FAA12866031A00B9D478 /* Build configuration list for PBXProject "Controller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDC0FAD12866031F00B9D478 /* Debug */,
@@ -654,7 +692,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDC0FAD32866031F00B9D478 /* Build configuration list for PBXNativeTarget "LightMatrixController (iOS)" */ = {
+		EDC0FAD32866031F00B9D478 /* Build configuration list for PBXNativeTarget "Controller (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDC0FAD42866031F00B9D478 /* Debug */,
@@ -663,7 +701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDC0FAD62866031F00B9D478 /* Build configuration list for PBXNativeTarget "LightMatrixController (macOS)" */ = {
+		EDC0FAD62866031F00B9D478 /* Build configuration list for PBXNativeTarget "Controller (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDC0FAD72866031F00B9D478 /* Debug */,
