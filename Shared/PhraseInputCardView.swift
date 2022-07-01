@@ -48,7 +48,9 @@ struct PhraseInputCardView: View {
         if(inputPhrase != ""){
             let matrixBase = Base()
             print("Sending \(inputPhrase)")
-            let textToSend = inputPhrase.replacingOccurrences(of: " ", with: "%26").replacingOccurrences(of: "+", with: "%2B").replacingOccurrences(of: "<", with: "%3C").replacingOccurrences(of: ">", with: "%3E").replacingOccurrences(of: "%", with: "%25").replacingOccurrences(of: "slop", with: "[l*p").uppercased()
+            let textToSend = inputPhrase
+                .replacingOccurrences(of: "%", with: "%25")
+                .replacingOccurrences(of: " ", with: "%26").replacingOccurrences(of: "+", with: "%2B").replacingOccurrences(of: "<", with: "%3C").replacingOccurrences(of: ">", with: "%3E").replacingOccurrences(of: "slop", with: "[l*p").uppercased()
             let url = "http://192.168.4.1/data?word=\(textToSend)"
             matrixBase.sendRequest(destinationUrl: url)
         }
