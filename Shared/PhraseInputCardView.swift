@@ -8,7 +8,6 @@
 import SwiftUI
 
 
-
 struct PhraseInputCardView: View {
     @State var inputPhrase: String = ""
     @FocusState private var isFocused: Bool
@@ -39,7 +38,7 @@ struct PhraseInputCardView: View {
                     .cornerRadius(40)
                     .foregroundColor(.white)
                     .padding(5)
-                    
+                
             })
         }.padding().cornerRadius(25)
     }

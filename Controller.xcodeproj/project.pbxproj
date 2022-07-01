@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDAA5308286E7552009679A2 /* MatrixBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5307286E7552009679A2 /* MatrixBase.swift */; };
 		EDC0FABC2866031F00B9D478 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FABB2866031F00B9D478 /* Tests_iOS.swift */; };
 		EDC0FABE2866031F00B9D478 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FABD2866031F00B9D478 /* Tests_iOSLaunchTests.swift */; };
 		EDC0FAC82866031F00B9D478 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAC72866031F00B9D478 /* Tests_macOS.swift */; };
@@ -21,7 +22,6 @@
 		EDC0FAE3286786CD00B9D478 /* PhraseInputCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAE2286786CD00B9D478 /* PhraseInputCardView.swift */; };
 		EDC0FAE5286797A600B9D478 /* SpeedInputCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAE4286797A600B9D478 /* SpeedInputCardView.swift */; };
 		EDC0FAE72867D63700B9D478 /* ColorPickerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAE62867D63700B9D478 /* ColorPickerCardView.swift */; };
-		EDC0FAE92868F93600B9D478 /* MatrixBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAE82868F93600B9D478 /* MatrixBase.swift */; };
 		EDC0FAEB2869063A00B9D478 /* BrightnessCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAEA2869063A00B9D478 /* BrightnessCardView.swift */; };
 		EDC0FAED286907AB00B9D478 /* ResetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0FAEC286907AB00B9D478 /* ResetCardView.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EDAA5307286E7552009679A2 /* MatrixBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixBase.swift; sourceTree = "<group>"; };
 		EDC0FAA32866031A00B9D478 /* LightMatrixControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMatrixControllerApp.swift; sourceTree = "<group>"; };
 		EDC0FAA42866031A00B9D478 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDC0FAA52866031F00B9D478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		EDC0FAE2286786CD00B9D478 /* PhraseInputCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseInputCardView.swift; sourceTree = "<group>"; };
 		EDC0FAE4286797A600B9D478 /* SpeedInputCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedInputCardView.swift; sourceTree = "<group>"; };
 		EDC0FAE62867D63700B9D478 /* ColorPickerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerCardView.swift; sourceTree = "<group>"; };
-		EDC0FAE82868F93600B9D478 /* MatrixBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixBase.swift; sourceTree = "<group>"; };
 		EDC0FAEA2869063A00B9D478 /* BrightnessCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessCardView.swift; sourceTree = "<group>"; };
 		EDC0FAEC286907AB00B9D478 /* ResetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +100,7 @@
 		EDC0FA9D2866031A00B9D478 = {
 			isa = PBXGroup;
 			children = (
+				EDC0FAEE286919F500B9D478 /* New Group */,
 				EDC0FADF286649B000B9D478 /* Model */,
 				EDC0FAA22866031A00B9D478 /* Shared */,
 				EDC0FAB12866031F00B9D478 /* macOS */,
@@ -113,12 +114,12 @@
 			isa = PBXGroup;
 			children = (
 				EDC0FAA32866031A00B9D478 /* LightMatrixControllerApp.swift */,
+				EDAA5307286E7552009679A2 /* MatrixBase.swift */,
 				EDC0FAA42866031A00B9D478 /* ContentView.swift */,
 				EDC0FAA52866031F00B9D478 /* Assets.xcassets */,
 				EDC0FAE2286786CD00B9D478 /* PhraseInputCardView.swift */,
 				EDC0FAE4286797A600B9D478 /* SpeedInputCardView.swift */,
 				EDC0FAE62867D63700B9D478 /* ColorPickerCardView.swift */,
-				EDC0FAE82868F93600B9D478 /* MatrixBase.swift */,
 				EDC0FAEA2869063A00B9D478 /* BrightnessCardView.swift */,
 				EDC0FAEC286907AB00B9D478 /* ResetCardView.swift */,
 			);
@@ -168,6 +169,13 @@
 				EDC0FAE0286649D300B9D478 /* Theme.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EDC0FAEE286919F500B9D478 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,8 +340,8 @@
 				EDC0FAEB2869063A00B9D478 /* BrightnessCardView.swift in Sources */,
 				EDC0FAE3286786CD00B9D478 /* PhraseInputCardView.swift in Sources */,
 				EDC0FAED286907AB00B9D478 /* ResetCardView.swift in Sources */,
-				EDC0FAE92868F93600B9D478 /* MatrixBase.swift in Sources */,
 				EDC0FAE5286797A600B9D478 /* SpeedInputCardView.swift in Sources */,
+				EDAA5308286E7552009679A2 /* MatrixBase.swift in Sources */,
 				EDC0FAE1286649D300B9D478 /* Theme.swift in Sources */,
 				EDC0FACD2866031F00B9D478 /* ContentView.swift in Sources */,
 				EDC0FACB2866031F00B9D478 /* LightMatrixControllerApp.swift in Sources */,

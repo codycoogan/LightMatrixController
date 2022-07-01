@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BrightnessCardView: View {
-    @State var brightness: Double = 150
+    @State var brightness: Double = 100
     var body: some View {
         
         VStack {

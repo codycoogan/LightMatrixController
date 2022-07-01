@@ -19,8 +19,6 @@ struct ResetCardView: View {
                 .padding(5)
                 .multilineTextAlignment(.center)
                 .frame(maxWidth: .infinity, alignment: .center)
-            
-            
         })
     }
     
@@ -31,7 +29,6 @@ struct ResetCardView: View {
         matrixBase.sendRequest(destinationUrl: url)
     }
 }
-
 
 
 struct ResetCardView_Previews: PreviewProvider {

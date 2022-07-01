@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SpeedInputCardView: View {
-    @State var speed: Double = 15
+    @State var speed: Double = 6
     var body: some View {
         
         VStack {
@@ -22,7 +22,7 @@ struct SpeedInputCardView: View {
             
             Text(String((Int(speed)))).bold().font(.title3)
         }
-            .padding()
+        .padding()
     }
     
     func changeSpeed(){

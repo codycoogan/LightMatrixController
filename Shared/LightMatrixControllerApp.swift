@@ -14,5 +14,4 @@ struct LightMatrixControllerApp: App {
             ContentView()
         }
     }
-    
 }
